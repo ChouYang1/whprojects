@@ -1,0 +1,23 @@
+body {
+  background-color: #9b7fff;
+}
+
+section {
+  background-color: chocolate;
+  padding: 65px;
+  margin: 50px;
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+
+div {
+  flex: 1;
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  margin: 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
