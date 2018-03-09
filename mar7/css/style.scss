@@ -1,0 +1,105 @@
+html{
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav#horizontal {   
+    background-color: hsl(0, 0%, 13%);
+    padding: 10px;
+    color: white;
+}
+
+nav#horizontal ul {
+    display: flex;
+    justify-content: space-between;
+    a {
+        display: inline-block;
+        color: inherit;
+        text-decoration: none;
+        font-weight: 100;
+        padding: 5px;
+    }
+    a:hover, a.active {   
+        color: lightblue;
+        background-color: lightsalmon;
+    }
+}
+
+nav#dropdown {
+    background-color: lightgreen;
+    padding: 10px;
+    color: black;
+}
+nav#dropdown ul {
+    //background-color: lightskyblue;
+    & li{
+        position: relative;
+        display: inline-block;
+    }
+    & li:nth-child(1):hover{
+        ul{
+            display: block;
+        }
+    }
+    
+    ul {
+        display: none;
+        position: absolute;
+        background-color: lightgray;
+        padding: 10px;
+        width: 200px;
+        li{
+            white-space: nowrap;
+            display: block;
+        }
+        li:not(:last-child) {
+            //white-space: nowrap;
+            //display: block;
+            border-bottom: 1px solid lightcoral;
+        }
+        a {
+            display: block;
+            padding-right: 20px;
+            transition: all 250ms;
+            box-sizing: border-box;
+            width: calc(100%-3px);
+        }
+        a:hover {
+            color: white;
+            border-left: 3px solid hsl (340, 50%, 50%);
+            text-indent: 3px;
+            //background-color: lightblue;
+        }
+    }
+    a {
+        display: inline-block;
+        padding: 5px;
+        color: inherit;
+        text-decoration: none;
+    }
+    a:hover {
+            background-color: lightblue;
+    }
+}
+
+//nav#dropdown ul:hover {
+
+//}
+body{
+    margin: 0;
+}
+    
+//box model
+
+.stuff{
+    width: calc(100%-40px);
+    background-color: red;
+    padding: 40px;
+    border: 10px dashed blue;
+    margin: 20px;
+    box-sizing: border-box;
+}
