@@ -1,0 +1,23 @@
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css");
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  flex-direction: row;
+}
+
+i {
+  display: block;
+  font-size: 32px;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */
