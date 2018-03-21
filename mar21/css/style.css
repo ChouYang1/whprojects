@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+button {
+  border: 1px solid #171717;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #d6d6d6;
+}
+
+h1 {
+  background-size: cover;
+  padding: 25px;
+}
+
+nav {
+  padding: 10px;
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

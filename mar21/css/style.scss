@@ -1,0 +1,40 @@
+$black: hsla(0, 0%, 19%, 1);
+
+body{
+    margin: 0;
+
+}
+
+button{
+    border: 1px solid darken($black, 10); //scss funtions
+    border-radius: 4px;
+    padding: 10px;
+    font-size: inherit;
+    //target with ampersand psuedo class hovr
+    &:hover {
+        background-color: lighten($black, 65);
+    }
+
+}
+
+h1{
+    background-size:    cover;
+    padding: 25px;
+}
+
+nav {
+    padding: 10px;
+    background-color: $black;
+    display: flex; //flex contatiner, enable flex
+    justify-content: flex-end;
+
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
