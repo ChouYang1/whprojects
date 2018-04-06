@@ -105,28 +105,28 @@ console.log(movies);
 /*
 if else
 */
-function getUserAge(){
-    var userage = parseInt(prompt('how old are you?'));
-    //AND &&
-    // OR ||
-    if(userage < 21){
-        console.log('not old enough');
-    }else if(userage == 21){
-        console.log('good to go');
-    }else{
-        console.log('plenty old')
-    }    
-}
-getUserAge();
+// function getUserAge(){
+//     var userage = parseInt(prompt('how old are you?'));
+//     //AND &&
+//     // OR ||
+//     if(userage < 21){
+//         console.log('not old enough');
+//     }else if(userage == 21){
+//         console.log('good to go');
+//     }else{
+//         console.log('plenty old')
+//     }    
+// }
+// getUserAge();
 
 /* Ternary Operator
 
 */
-function getAge(){
-    var age = parseInt(prompt('Whats my age again?'));
-    (age >= "21") ? console.log('true') : console.log('false');
-}
-getAge();
+// function getAge(){
+//     var age = parseInt(prompt('Whats my age again?'));
+//     (age >= "21") ? console.log('true') : console.log('false');
+// }
+// getAge();
 
 /*
 write a function and prompt the user telling the user a "story"
@@ -142,3 +142,10 @@ complex version-
 loops
 arrays
 */
+
+function getStory(){
+    var story = prompt('In a 5th dimension in the distant future far far away....');
+    console.log(story);
+}
+
+getStory();
