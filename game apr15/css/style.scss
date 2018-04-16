@@ -1,6 +1,7 @@
 header{
     display: flex;
     align-content: center;
+    font-size: 50px;
 }
 div.dice{
     float: left;
@@ -12,4 +13,13 @@ div.dice{
     text-align: center;
     margin: 15px;
 
+}
+
+button{
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+    background-color: chartreuse;
 }
