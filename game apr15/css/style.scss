@@ -1,9 +1,12 @@
-
+header{
+    display: flex;
+    align-content: center;
+}
 div.dice{
     float: left;
     width: 40px;
     background: aqua;
-    border: #999 2px solid;
+    border: chartreuse 2px solid;
     padding: 20px;
     font-size: 36px;
     text-align: center;
