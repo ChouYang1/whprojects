@@ -1,9 +1,14 @@
 function cheatcode() {
     var code = prompt("Please enter cheat code");
-    if(code = 44){
-         document.getElementById(demo).innerHTML = "You are the champion cheater!  Please claim prize at Geekwise Academy!";
+    var clue = 44;
+    if(code == clue){
+         //document.getElementById(clue).innerHTML = "You are the champion cheater!  Please claim prize at Geekwise Academy!";
+        alert("You are the champion cheater! LVL up skip stage 1.");
+        }else {
+            alert("Wrong, Proceed to dice rolling!");
         }
 }
+
 
 // document.getElementById = 
 function rolldice(){
