@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: #ff9100;
+}
+
+header {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+input {
+  border: 1px solid lightgrey;
+  padding: 5p;
+  border-radius: 4px;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+/*# sourceMappingURL=style.css.map */
