@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+header input {
+  border: 1px solid lightblue;
+  padding: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main li {
+  width: 33%;
+  margin: 10px;
+}
+
+main img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

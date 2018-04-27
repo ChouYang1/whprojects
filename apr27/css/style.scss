@@ -1,0 +1,31 @@
+
+
+body{
+    margin: 0;
+}
+header {
+    background-color: lightcoral;
+    padding: 10px;
+    input {
+        border: 1px solid lightblue;
+        padding: 5px;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+    }
+}
+
+main {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    li{
+        width: 33%;
+        margin: 10px;
+    }
+    img {
+        width: 100%;
+    }
+}
