@@ -1,5 +1,6 @@
 header{
     display: flex;
+    justify-content: space-evenly;
     align-content: center;
     font-size: 50px;
 }
@@ -16,15 +17,22 @@ div.dice{
 }
 
 button{
-    font-size: 20px;
+    
+    font-size: 50px;
 }
 
 p {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
     font-size: 25px;
-    background-color: chartreuse;
+    border-radius: 5px 5px;
+    background-color: greenyellow;
 }
 
 h3, h4 {
+    display: flex;
+    justify-content: space-around;
     font-size: 30px;
     background-color: red;
     padding: 5px;
@@ -36,4 +44,21 @@ h3, h4 {
 h2 {
 
     margin: 5px;
+}
+
+div {
+    
+    font-size: 30px;
+}
+
+body {
+    background-image: url();
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 35px;
+    color: black;
+    font-family: sans-serif;
 }
